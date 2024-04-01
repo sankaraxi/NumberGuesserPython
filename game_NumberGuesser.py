@@ -21,7 +21,7 @@ random_number = random.randint(0,range_you_prescribe)
 
 no_of_guesses = 0
 
-while True:
+while True: #executes the following untill the user guess matches the random number
     no_of_guesses += 1
     user_guess = input("Make a guess and enter a number: ")
 
